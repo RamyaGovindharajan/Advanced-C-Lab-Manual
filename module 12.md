@@ -12,7 +12,7 @@ Algorithm:
  
 Program:
 
-
+```
 struct Node   
 {  
 float data;  
@@ -27,7 +27,7 @@ void display()
         current=current->next;
     }
 }
-
+```
 
 Output:
 
@@ -51,7 +51,7 @@ Algorithm:
  
 Program:
 
-
+```
 struct Node   
 {  
 float data;  
@@ -68,7 +68,7 @@ void pop()
         printf("stack is empty");
     }
 }
-
+```
 
 Output:
 
@@ -90,7 +90,7 @@ Algorithm:
  
 Program:
 
-
+```
 struct Node
 {
    int data;
@@ -115,6 +115,8 @@ void display()
 }
 }
 
+```
+
 Output:
 
 ![image](https://github.com/user-attachments/assets/27c2e8e8-bc15-41e4-b2da-113371365a0b)
@@ -138,7 +140,7 @@ Algorithm:
 6.	End of Enqueue Operation
  
 Program:
-
+```
 
 struct Node
 {
@@ -162,7 +164,7 @@ void enqueue(int data)
     }
 }
 
-
+```
 Output:
 
 ![image](https://github.com/user-attachments/assets/53e0c8d9-c53c-4674-9d75-461fdcd13fe4)
@@ -189,7 +191,7 @@ o	If the queue is not empty, return the data stored in the front node of the lin
 
 Program:
 
-
+```
 struct Node
 {
    float data;
@@ -207,7 +209,7 @@ void peek()
     }
 }
 
-
+```
 Output:
 
 ![image](https://github.com/user-attachments/assets/bab00d15-7136-46ca-a8c6-edb3251bc5ea)
