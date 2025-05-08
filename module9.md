@@ -13,11 +13,24 @@ Algorithm:
  
 Program:
 
-//type your code here
+```
+float stack[100];
+int top = - 1;
+void display()
+{
+    for(int i=2;i>=0;i--){
+       printf("%.1f ",stack[i]); 
+    }
+    
+}
+
+
+```
 
 Output:
 
-//paste your output here
+![Screenshot 2025-05-08 052846](https://github.com/user-attachments/assets/086fe355-91f6-4d44-a8e9-e19bb3175c4e)
+
 
 
 
@@ -36,11 +49,28 @@ Algorithm:
  
 Program:
 
-//type your code here
+```
+char stack[100];
+int size=3,top=-1;
+void push (char data)
+{
+    if(top==size-1)
+    {
+        printf("stack is full\n");
+    }
+    else
+    {
+        top++;
+        stack[top]=data;
+    }
+    
+}
+```
 
 Output:
 
-//paste your output here
+![Screenshot 2025-05-08 053101](https://github.com/user-attachments/assets/f6464f14-7053-423e-839f-b1dec4b0d981)
+
 
 
 
@@ -62,11 +92,30 @@ Algorithm:
  
 Program:
 
-//type your code here
+```
+char queue[50] ; 
+int rear=-1, front=-1,i;
+void display()
+{
+   if(front==-1)
+   {
+       printf("No elements to display\n");
+   }
+   else
+   {
+       for(i=front;i<=rear;i++)
+       {
+           printf("%c ",queue[i]);
+       }
+   }
+}
+
+```
 
 Output:
 
-//paste your output here
+![Screenshot 2025-05-08 053230](https://github.com/user-attachments/assets/e36495a9-a5e4-4caa-b451-f2473ad807bf)
+
 
 
 Result:
@@ -86,11 +135,24 @@ Algorithm:
 
 Program:
 
-//type your code here
-
+```
+int front,rear,size=5,i;
+int queue[50];
+void enqueue(int data)
+{
+    if(front==-1||front<size)
+    {
+        front=0;
+        rear++;
+        queue[rear]=data;
+    }
+    
+}
+```
 Output:
 
-//paste your output here
+![Screenshot 2025-05-08 053327](https://github.com/user-attachments/assets/8e3c3c4c-a689-40e7-8b8e-c03469cf50aa)
+
 
 Result:
 Thus, the program to insert elements in queue using array is verified successfully.
@@ -121,11 +183,27 @@ o	After deletion, check if the front pointer has passed the rear pointer (front 
 
 Program:
 
-//type your code here
+```
+int front,size,i;
+void dequeue()
+{
+    if(front==size-1)
+    {
+        printf("No elements to display\n");
+    }
+    else
+    {
+        front++;
+    }
+}
+
+```
+
 
 Output:
 
-//paste your output here
+![Screenshot 2025-05-08 053650](https://github.com/user-attachments/assets/812094a2-0896-47ff-bd80-96868ef8f30e)
+
 
 
 Result:
